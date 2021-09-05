@@ -7,6 +7,6 @@ For example, calling format_number(1000000) should return "1,000,000".
 '''
 
 
-def format_number(num):
-    return f"{num:,}"
-print(format_number(1000000))
+import math
+fun = lambda x : 1 if x == 1 else math.ceil(math.sinh(fun (x-1)))
+print(fun(5))
